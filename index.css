@@ -1,0 +1,224 @@
+
+h1 {
+    font-size: 48px;
+    font-weight: 500px;
+    color: #f2f2f2;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 400px;
+    color: #f2f2f2;
+}
+h3 {
+    font-size: 24px;
+    font-weight: 400px;
+    color: #f2f2f2;
+}
+h4 {
+    font-size: 18px;
+    font-weight: 400px;
+    color: #f2f2f2;
+}
+p {
+    font-size: 18px;
+    font-weight: 300px;
+    color: #f2f2f2;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.topnav {
+   background-color: black;
+   overflow: hidden;
+   margin-top: 0px;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.topnav a:hover {
+    color: #FDF401;
+}
+.topnav a.active {
+    background-color: #FDF401;
+    color: black;
+    font-weight: bold;
+}
+.aboutme-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+}
+.aboutme-container {
+    margin-left: 30px;
+    margin-right:30px;
+    display: flex;
+    background-color: #181818;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: #939393;
+    max-width: min-content;
+}
+.aboutme-text {
+    position: relative;
+    min-width: 500px;
+    padding-left: 30px;
+    padding-right:30px;
+}
+.aboutme-text h1 {
+    margin: 0px;
+}
+.aboutme-container, .aboutme-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.skills-container {
+    margin-left: 30px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: max-content;
+    background-color: #181818;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: #939393;
+}
+.tools-container {
+    margin-right: auto;
+    margin-left: 30px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: max-content;
+    background-color: #181818;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: #939393;
+}
+.selected-work-header {
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.portfolio-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto
+}
+.selected-work-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: 30px;
+    height: auto;
+    padding: 10px;
+    padding-top: 0px;
+    max-width: 500px;
+    min-width: 500px;
+    max-height: min-content;
+    background-color: #181818;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: #939393;
+}
+.selected-work-container:hover {
+    outline-color: #FDF401;
+}
+.selected-work-container img {
+    max-height: auto;
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 0px;
+}
+.selected-work-container h3 {
+    text-align: center;
+}
+.selected-work-container p {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-justify: inter-word;
+}
+.contact-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #181818;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: #939393;
+    min-width: 500px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.contact-container h3 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+.contact-container h3:hover {
+    color: #FDF401;
+}
+.contact-vectors {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.linked-vector {
+    margin-right: 60px;
+}
+.footer {
+    display: flex;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+}
+.copyright-text {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-right: 30px
+}   
+.footer-text {
+    position: absolute;
+    top: 0;
+    padding-left: 30px;
+    padding-top: 10px;
+}
