@@ -227,6 +227,6 @@ p {
     padding-left: 30px;
     padding-top: 10px;
 }
-.footer-text:hover {
+.footer-text:hover p{
     color: #FDF401;
 }
